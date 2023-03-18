@@ -45,7 +45,7 @@
 /* 메뉴 열기 */
 .header .menu-open{ position: fixed; left: -100%; top: 0; background: #fff; z-index: 1; width: 80%; height: 100%; overflow-y: auto; }
 .header .menu-open.on{ left: 0; }
-.menu-open .btn-close{ position: absolute; top: 40px; right: 10px; background: url(../img/close-icon.png) no-repeat; width: 20px; height: 20px; border: 0; }
+.menu-open .btn-close{ position: absolute; top: 40px; right: 10px; background: url(../img/close-icon.png) no-repeat; width: 30px; height: 28px; border: 0; }
 /* 딤드 */
 .dimmed{ position: fixed; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: none; }
 

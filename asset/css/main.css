@@ -1,5 +1,5 @@
+/****************** section : visual ******************/
 .visual{ height: calc(100vh - 140px); }
-
 .visual .visual-slide .swiper-pagination{ bottom: 50px; }
 .visual .visual-slide .swiper-pagination-bullet{ background: #fff; width: 20px; height: 2px; border-radius: 0; margin: 0; }
 .visual .swiper{ width: 100%; height: 100%; }
@@ -8,29 +8,26 @@
 .visual .figure .text-box{position: absolute; bottom: 0; left: 0; width: 100%; box-sizing: border-box; padding: 100px 37px; color: #fff; font-family: 'gilroy','NotoSansKR',Malgun Gothic,'맑은 고딕',Dotum,'돋움',sans-serif; }
 .visual .figure .text-box .figcaption{ font-weight: 700; font-size: 28px; line-height: 1.3; letter-spacing: -1.5px; }
 .visual .figure .text-box .desc{ font-weight: 400; padding-top: 15px; font-size: 17px; line-height: 1.4; letter-spacing: -0.5px; }
-
+/****************** section : best ******************/
 .best .btn-more{padding: 0 38px; box-sizing: border-box; margin: 0 auto; margin-bottom: 65px;}
 .best .btn-more .link-more{ display: block; width: 100%; height: 52px; line-height: 52px; border: 1px solid #e0e0e0; box-sizing: border-box; background: #fff; font-size: 15px; color: #222; font-weight: 500; text-align: center; position: relative; }
 .best .btn-more .link-more::after{ position: absolute; content: ''; display: inline-block; top: 50%; transform: translateY(-50%); width: 24px; height: 19px; background: url(../img/arrow-right.png) no-repeat center; }
-
+/****************** cupon (베너) ******************/
 .cupon{margin: 60px auto 120px;}
 .cupon .link-cupon{display: block; width: 100%;}
 .cupon .link-cupon img{width: 100%;}
-
+/****************** section : new product ******************/
 .new-prd .btn-more{padding: 0 38px; box-sizing: border-box; margin: 0 auto; margin-bottom: 65px;}
 .new-prd .btn-more .link-more{ display: block; width: 100%; height: 52px; line-height: 52px; border: 1px solid #e0e0e0; box-sizing: border-box; background: #fff; font-size: 15px; color: #222; font-weight: 500; text-align: center; position: relative; }
 .new-prd .btn-more .link-more::after{ content: ''; display: inline-block; position: absolute; top: 50%; transform: translateY(-50%); width: 24px; height: 19px; background: url(../img/arrow-right.png) no-repeat center; }
-
+/****************** ection : intro ******************/
 .intro{ width: 100%; padding: 56px 20px; background-color: #C86733;}
 .intro .sc-title{padding: 0; color: #fff; font-size: 18px; letter-spacing: -0.5px; margin: 0 auto 10px; font-weight: 400; display: inline-block; border-bottom: 1.5px solid #fff; padding-bottom: 5px; padding-top: 0; line-height: 1.2;}
 .intro .sub-title{font-size: 30px; line-height: 36px; letter-spacing: -0.03em; color: #fff; font-weight: 700;}
 .intro .desc{padding: 10px 0 5px; font-size: 12px; line-height: 1.4; color: #fff; letter-spacing: -0.02em; font-weight: 400; }
 .intro .btn-more{display: inline-block; width: 100px; margin-top: 20px; padding: 10px 0; font-size: 12px; line-height: 14px; letter-spacing: -0.03em; font-weight: 500; color: #fff; text-align: center; box-sizing: border-box; border: 1px solid #fff;}
-
-
-/* 공통 */
+/****************** 공통영역 (제품목록) ******************/
 main .sc-title{ padding: 50px 16px 22px; font-size: 20px; line-height: 29px; color: #333; letter-spacing: -0.05em; font-weight: 700; }
-
 .prd-list{display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; width: 100%;}
 .prd-list .prd-item{ width: calc((100% - 20px) / 2); position: relative; padding-bottom: 50px; }
 .prd-list .prd-item .link-item{ display: block; width: 100%; position: relative; }
@@ -44,14 +41,12 @@ main .sc-title{ padding: 50px 16px 22px; font-size: 20px; line-height: 29px; col
 .prd-list .prd-item .text-box .price{ font-size: 13px ; line-height: 13px ; font-weight: 400 ; color: #8d8d8d ; margin-left: 5px; text-decoration: line-through; }
 .prd-list .prd-item .color{ font-size: 13px; line-height: 11px; letter-spacing: -0.05em; color: #999; font-weight: 500; padding-top: 9px; font-family: 'gilroy','NotoSansKR',sans-serif; }
 .prd-list .prd-item .text-box .tag{ display: inline-block; border: 1px solid rgba(142,31,41,0.5); box-sizing: border-box; padding: 5px; font-size: 9px; line-height: 9px; font-weight: bold; letter-spacing: -0.05em; color: #8e1f28; }
-
 .link-content{display: block; width: 100%; padding: 20px 0 20px;}
 .link-content img{width: 100%; object-fit: cover;}
 .link-content .title-box{ padding: 20px 16px 20px; box-sizing: border-box; font-family: 'gilroy','NotoSansKR',Malgun Gothic,'맑은 고딕',Dotum,'돋움',sans-serif; letter-spacing: -0.05em; }
-.link-content .title{ font-size: 26px; font-weight: 700; line-height: 35px; }
-.link-content .desc{ padding: 14px 0 28px; font-size: 16px; line-height: 26px; font-weight: 400; }
+.link-content .title{ display: block; font-size: 26px; font-weight: 700; line-height: 35px; }
+.link-content .desc{ display: block; padding: 14px 0 28px; font-size: 16px; line-height: 26px; font-weight: 400; }
 .link-content .btn-more{ display: inline-block; background-color: #1e1e1e; border-radius: 2px; border: 1px solid #1e1e1e; box-sizing: border-box; color: #fff; padding: 8px 47px 8px 18px; font-size: 14px; line-height: 20px; letter-spacing: -0.03em; font-weight: 500; background-image: url(../img/long-arrow\(w\).png); background-repeat: no-repeat; background-size: 15px auto; background-position: calc(100% - 18px) center; margin-left: 10px; /* position?? */ }
-
 .prdsub-group{padding: 16px;}
 .prdsub-group .prdsub-item{display: flex; padding: 20px 0;}
 .prdsub-group .prdsub-item+.prdsub-item{border-top: 1px solid #eee;}
@@ -65,7 +60,6 @@ main .sc-title{ padding: 50px 16px 22px; font-size: 20px; line-height: 29px; col
 .prdsub-group .prdsub-item .text-box .percent{ font-family: 'gilroy','NotoSansKR',Malgun Gothic,'맑은 고딕',Dotum,'돋움',sans-serif; font-weight: bold; color: #8E1F29; font-size: 15px; line-height: 16px; letter-spacing: -0.03em; }
 .prdsub-group .prdsub-item .text-box .price{ font-size: 13px ; line-height: 13px ; font-weight: 400 ; color: #8d8d8d ; margin-left: 5px; text-decoration: line-through; }
 .prdsub-group .prdsub-item .color{ font-size: 13px; line-height: 11px; letter-spacing: -0.05em; color: #999; font-weight: 500; padding-top: 9px; font-family: 'gilroy','NotoSansKR',sans-serif; }
-
 .prd-group .link-item{display: block; position: relative; width: 100%;}
 .prd-group .link-item img{width: 100%;}
 .prd-group .text-box{padding: 15px 10px 0;}
@@ -83,14 +77,14 @@ main .sc-title{ padding: 50px 16px 22px; font-size: 20px; line-height: 29px; col
 .prd-group .color{ font-size: 13px; line-height: 11px; letter-spacing: -0.05em; color: #999; font-weight: 500; padding-top: 9px; font-family: 'gilroy','NotoSansKR',sans-serif; }
 .prd-group .text-box .tag{ display: inline-block; border: 1px solid rgba(142,31,41,0.5); box-sizing: border-box; padding: 5px; font-size: 9px; line-height: 9px; font-weight: bold; letter-spacing: -0.05em; color: #8e1f28; }
 .prd-group .swiper{ padding: 0 20px; }
-
+/****************** 배너 ******************/
 .banner.membership{margin-bottom: 10px; padding-top: 70px;}
 .banner .link-banner { display: block; width: 100%; position: relative; }
 .banner .link-banner img{ width: 100%; }
 .banner .link-banner .text-box{ position: absolute; top: 50%; transform: translateY(-50%); left: 20px; }
 .banner .link-banner .title{ font-size: 26px; line-height: 31px; font-weight: 700; letter-spacing: -0.02em; color: #fff; }
-.banner .link-banner .desc{ font-size: 15px; line-height: 1.4; font-weight: 400; letter-spacing: -0.02em; color: #fff; padding: 15px 0 30px; box-sizing: border-box; }
-.banner .link-banner span{ border: 1px solid #fff; padding: 7px 25px 8px; color: #fff; font-size: 15px; line-height: 18px; letter-spacing: -0.03em; display: inline-block; box-sizing: border-box; }
+.banner .link-banner .desc{ display: block; font-size: 15px; line-height: 1.4; font-weight: 400; letter-spacing: -0.02em; color: #fff; padding: 15px 0 30px; box-sizing: border-box; }
+.banner .link-banner .more{ border: 1px solid #fff; padding: 7px 25px 8px; color: #fff; font-size: 15px; line-height: 18px; letter-spacing: -0.03em; display: inline-block; box-sizing: border-box; }
 
 
 

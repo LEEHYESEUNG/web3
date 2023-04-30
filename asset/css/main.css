@@ -13,7 +13,7 @@
 .best .btn-more .link-more{ display: block; width: 100%; height: 52px; line-height: 52px; border: 1px solid #e0e0e0; box-sizing: border-box; background: #fff; font-size: 15px; color: #222; font-weight: 500; text-align: center; position: relative; }
 .best .btn-more .link-more::after{ position: absolute; content: ''; display: inline-block; top: 50%; transform: translateY(-50%); width: 24px; height: 19px; background: url(../img/arrow-right.png) no-repeat center; }
 /****************** cupon (베너) ******************/
-.cupon{margin: 60px auto 120px;}
+.cupon{margin: 60px auto 60px;}
 .cupon .link-cupon{display: block; width: 100%;}
 .cupon .link-cupon img{width: 100%;}
 /****************** section : new product ******************/
@@ -28,6 +28,7 @@
 .intro .btn-more{display: inline-block; width: 100px; margin-top: 20px; padding: 10px 0; font-size: 12px; line-height: 14px; letter-spacing: -0.03em; font-weight: 500; color: #fff; text-align: center; box-sizing: border-box; border: 1px solid #fff;}
 /****************** 공통영역 (제품목록) ******************/
 main .sc-title{ padding: 50px 16px 22px; font-size: 20px; line-height: 29px; color: #333; letter-spacing: -0.05em; font-weight: 700; }
+main .lookbook .sc-title{ padding: 0; }
 .prd-list{display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; width: 100%;}
 .prd-list .prd-item{ width: calc((100% - 20px) / 2); position: relative; padding-bottom: 50px; }
 .prd-list .prd-item .link-item{ display: block; width: 100%; position: relative; }

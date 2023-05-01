@@ -36,7 +36,7 @@ main .lookbook .sc-title{ padding: 0; }
 .prd-list .prd-item .link-item .new-icon{ display: inline-block; position: absolute; top: 0; right: 0; width: 20%; }
 .prd-list .prd-item .text-box{ padding: 15px 5% 0; display: flex; flex-direction: column; gap: 10px; }
 .prd-list .prd-item .text-box .review{ display: inline-block; color: #8e1f29; padding-left: 0px; font-weight: 600; font-size: 13px; line-height: 13px; }
-.prd-list .prd-item .text-box .title{ font-family: 'gilroy','NotoSansKR',Malgun Gothic,'맑은 고딕',Dotum,'돋움',sans-serif; width: 100%; font-size: 14px; line-height: 17px; letter-spacing: -0.05em; font-weight: 500; }
+.prd-list .prd-item .text-box .title{ font-family: 'gilroy','NotoSansKR','Malgun Gothic','맑은 고딕','Dotum','돋움',sans-serif; width: 100%; font-size: 14px; line-height: 17px; letter-spacing: -0.05em; font-weight: 500; }
 .prd-list .prd-item .text-box .price-box{ font-size: 15px; line-height: 16px; font-weight: 500; letter-spacing: -0.03em; vertical-align: top; font-family: 'gilroy','NotoSansKR',sans-serif; }
 .prd-list .prd-item .text-box .percent{ font-family: 'gilroy','NotoSansKR','Malgun Gothic','맑은 고딕','Dotum','돋움',sans-serif; font-weight: bold; color: #8E1F29; font-size: 15px; line-height: 16px; letter-spacing: -0.03em; }
 .prd-list .prd-item .text-box .price{ font-size: 13px ; line-height: 13px ; font-weight: 400 ; color: #8d8d8d ; margin-left: 5px; text-decoration: line-through; }

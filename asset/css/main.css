@@ -1,5 +1,6 @@
 /****************** section : visual ******************/
 .visual{ height: calc(100vh - 140px); }
+.visual .sc-title{ padding: 0; }
 .visual .visual-slide .swiper-pagination{ bottom: 50px; }
 .visual .visual-slide .swiper-pagination-bullet{ background: #fff; width: 20px; height: 2px; border-radius: 0; margin: 0; }
 .visual .swiper{ width: 100%; height: 100%; }
